@@ -11,12 +11,10 @@ git init
 git remote add origin https://github.com/esctabcapslock/learn_Rust
 ```
 ### 업로드
+[add 관련](https://linuxize.com/post/gitignore-ignoring-files-in-git/)
 ```cmd
-git add ./readme.md 
-git add ./*.rs  
-git add ./*/src/*  
-git add ./*/Cargo.lock
-git add ./*/Cargo.toml
+git add *
 git status
-git commit -m "hello world"
+git commit -m ".gitignore 파일 생성"
+git push origin master
 ```
