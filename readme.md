@@ -8,6 +8,15 @@
 ## git
 ```cmd
 git init
+git remote add origin https://github.com/esctabcapslock/learn_Rust
 ```
+### 업로드
 ```cmd
+git add ./readme.md 
+git add ./*.rs  
+git add ./*/src/*  
+git add ./*/Cargo.lock
+git add ./*/Cargo.toml
+git status
+git commit -m "hello world"
 ```
