@@ -14,7 +14,9 @@ git remote add origin https://github.com/esctabcapslock/learn_Rust
 [add 관련](https://linuxize.com/post/gitignore-ignoring-files-in-git/)
 ```cmd
 git add *
+git add ../readme.md
+git add ../.gitignore
 git status
-git commit -m ".gitignore 파일 생성"
-git push origin master
+git commit -m "백준도 풀어보기"
+gi
 ```
