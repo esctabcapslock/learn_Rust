@@ -17,7 +17,7 @@ git add *
 git add ../readme.md
 git add ../.gitignore
 git status
-git commit -m "잔디오류"
+git commit -m "잔디오류3"
 git push origin master
 ```
 
@@ -29,3 +29,6 @@ git reset HEAD
 
 - [잔디](https://txegg.tistory.com/107)처럼, 내 이메일도 약간 잘못되어 있었다...
 - `git config --global --list`로 확인하고 `git config --global user.email "[mail@mail.com]" `통해 바꾸자.
+- [사생활 이멜 오류](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)는 이렇게 바꾸자
+- 내 id는 [다음](https://stackoverflow.com/questions/17308954/where-can-i-find-the-github-id-in-my-account)을 참조하자.
+- `git config --global user.email "{ID}+{username}@users.noreply.github.com"`
