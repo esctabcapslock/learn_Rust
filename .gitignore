@@ -3,6 +3,7 @@ book/
 /hello.exe
 /hello.pdb
 ./*/*.exe
+./*.exe
 # /.gitignore
 
 # Created by https://www.toptal.com/developers/gitignore/api/rust

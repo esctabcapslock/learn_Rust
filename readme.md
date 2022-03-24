@@ -17,6 +17,10 @@ git add *
 git add ../readme.md
 git add ../.gitignore
 git status
-git commit -m "백준도 풀어보기"
-gi
+git commit -m "백준 더풀기"
+git push origin master
+```
+
+```cmd
+git reset HEAD 
 ```
