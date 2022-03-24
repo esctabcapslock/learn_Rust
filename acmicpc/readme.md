@@ -65,3 +65,15 @@ println!("{:#?}",mystruct_instance);
         Ordering::Equal => println!("=="),
     }
 ```
+
+이 풀이 기억해두자 (34831332)
+```rs
+fn main() {
+    let mut score = String::new();
+    std::io::stdin().read_line(&mut score).unwrap();
+    println!("{}", match score.trim().parse().unwrap() {90..=100 => "A", 80..=89 => "B", 70..=79 => "C", 60..=69 => "D", _ => "F"});
+}
+```
+
+### 풀까
+- [이거](https://www.acmicpc.net/problem/3955)
