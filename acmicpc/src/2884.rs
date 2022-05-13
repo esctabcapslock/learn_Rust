@@ -4,7 +4,13 @@ fn readint()->Vec<i32>{
     buf.split_whitespace().map(|s| s.trim().parse().expect("이상한 수임")).collect::<Vec<_>>()
 }
 fn main(){
-    let x=readint()[0];
-    let y=readint()[0];
-    println!("{}",(if x>0 && y>0 {1} else if x<0 && y>0 {2} else if x<0 && y<0 {3} else {4}))
+    let tmp=readint();
+    let (mut h,mut m) = (tmp[0],tmp[1]);
+    let c=readint()[0];
+    m += c%60;
+    h += c/60;
+    if m>=60 {h+=m/60; m%=60;}
+    h %= 24;
+    
+    println!("{} {}",h,m);
 }

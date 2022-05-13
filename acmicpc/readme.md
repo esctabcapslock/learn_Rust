@@ -77,3 +77,4 @@ fn main() {
 
 ### 풀까
 - [이거](https://www.acmicpc.net/problem/3955)
+- [이거](https://www.acmicpc.net/problem/17368)

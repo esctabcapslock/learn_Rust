@@ -1,6 +1,6 @@
 fn main() {
     let a = [1, 2, 3, 4, 5];
-    let mut index = 4;
+    let index = 4;
     
     let element = a[index];
 

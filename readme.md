@@ -1,7 +1,9 @@
 # Rust 공부하기
 
 - 다음 [튜토리얼](https://doc.rust-lang.org/stable/book)을 참조한다
-- 다음 [번역...](https://rinthel.github.io/rust-lang-book-ko/)이 더 좋은 것 같다
+- 다음 [번역](https://rinthel.github.io/rust-lang-book-ko/)이 더 좋은 것 같다
+- 다음 [칼럼](https://blog.appleseed.dev/post/fascinated-by-rust-in-a-week/)이 잘 요약
+
 
 
 
@@ -17,7 +19,7 @@ git add *
 git add ../readme.md
 git add ../.gitignore
 git status
-git commit -m "잔디오류3"
+git commit -m "깃 이멜오류"
 git push origin master
 ```
 
@@ -32,3 +34,15 @@ git reset HEAD
 - [사생활 이멜 오류](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)는 이렇게 바꾸자
 - 내 id는 [다음](https://stackoverflow.com/questions/17308954/where-can-i-find-the-github-id-in-my-account)을 참조하자.
 - `git config --global user.email "{ID}+{username}@users.noreply.github.com"`
+- `git config --global user.email "62400002+esctabcapslock@users.noreply.github.com`
+
+## vscode 관련
+
+- `ctrl`+`M`카를 누르면 `tab`키 안먹힘
+
+
+## 시작하기
+`cmd
+$ cargo new --bin p_12_cli
+     Created binary (application) `p_12_cli` package
+`
