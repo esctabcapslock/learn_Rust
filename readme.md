@@ -43,6 +43,6 @@ git reset HEAD
 
 ## 시작하기
 `cmd
-$ cargo new --bin p_12_cli
+$ cargo new --bin p_15_deref
      Created binary (application) `p_12_cli` package
 `
