@@ -39,6 +39,7 @@ git reset HEAD
 ## vscode 관련
 
 - `ctrl`+`M`카를 누르면 `tab`키 안먹힘
+- `rust-analyzer` 확장이 `Julia` 확장이랑 충돌함.  `Julia` 비활성화 해야 함
 
 
 ## 시작하기
