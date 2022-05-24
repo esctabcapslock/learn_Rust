@@ -1,4 +1,4 @@
-
+// #[warn(non_snake_case)]
 use std::rc::{Weak,Rc};
 use std::cell::{RefCell};
 use List::{Cons, Nil};
@@ -52,6 +52,7 @@ fn cycle(){
 // # 트리 데이터 구조 만들기
 
 #[derive(Debug)]
+// #[warn(dead_code)]
 struct Node{
     value:i32,
     children: RefCell<Vec<Rc<Node>>>,
@@ -76,12 +77,17 @@ fn tree(){
     *(leaf.parent.borrow_mut()) = Rc::downgrade(&branch);
 
     println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+
+    let k = &*branch.children.borrow();
+
+    println!("cbranch.hildren: {:?}, value:{}",k, branch.value);
+
     // branch
 }
 
 
 fn main(){
-    // cycle();
+    cycle();
     tree();
 }
 

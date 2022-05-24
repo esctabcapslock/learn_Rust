@@ -2,6 +2,7 @@
 - 다음 [튜토리얼](https://doc.rust-lang.org/stable/book)을 참조한다
 - 다음 [번역](https://rinthel.github.io/rust-lang-book-ko/)이 더 좋은 것 같다
 - 다음 [칼럼](https://blog.appleseed.dev/post/fascinated-by-rust-in-a-week/)이 잘 요약
+- [Rust 공식문서 (eng) 목록](https://doc.rust-lang.org/stable/)
 
 ## git
 ```cmd
@@ -40,7 +41,7 @@ git reset HEAD
 
 
 ## 시작하기
-`cmd
+```cmd
 $ cargo new --bin p_15_deref
      Created binary (application) `p_12_cli` package
-`
+```
