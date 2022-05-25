@@ -104,7 +104,9 @@ trait State {
 
     // 여기에 Post를 넣야 하는게 뭔가 내 방식과 다른듯.
     // 여러 클래스에 의존하는 느낌...?
-    fn content<'a>(&self, post: &'a Post) -> &'a str {
+    #[warn(unused_variables)]
+    fn content<'a>(&self,_post: &'a Post) -> &'a str {
+        
         ""
     }
 }
