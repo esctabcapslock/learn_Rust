@@ -45,3 +45,6 @@ git reset HEAD
 $ cargo new --bin p_15_deref
      Created binary (application) `p_12_cli` package
 ```
+
+## 잡다
+- 러스트는 구조체 내에 값이 없는 필드를 허용하지 않는다.
