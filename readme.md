@@ -1,5 +1,5 @@
 # Rust 공부하기
-- 다음 [튜토리얼](https://doc.rust-lang.org/stable/book)을 참조한다
+- 다음 [튜토리얼 참고](https://doc.rust-lang.org/stable/book)을 참조한다
 - 다음 [번역](https://rinthel.github.io/rust-lang-book-ko/)이 더 좋은 것 같다
 - 다음 [칼럼](https://blog.appleseed.dev/post/fascinated-by-rust-in-a-week/)이 잘 요약
 - [Rust 공식문서 (eng) 목록](https://doc.rust-lang.org/stable/)
@@ -48,3 +48,7 @@ $ cargo new --bin p_15_deref
 
 ## 잡다
 - 러스트는 구조체 내에 값이 없는 필드를 허용하지 않는다.
+
+## 타임라인
+- 공식 튜토리얼 1회독 2022-05-26
+     - 아직도 뭐가 뭔지 잘 모르겠다;;;;

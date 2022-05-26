@@ -32,8 +32,8 @@ fn raw_pointer() {
     let r2 = &mut num as *mut i32;
     let r3 = &mut num as *mut i32;
 
-    let mut r3_1 = &mut num;
-    r3_1 = &mut 23;
+    let mut _r3_1 = &mut num;
+    _r3_1 = &mut 23;
 
 
     // let 앞에 붙는 mut는 변경가능한 변수라는 뜻
